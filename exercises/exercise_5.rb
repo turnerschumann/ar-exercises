@@ -15,4 +15,4 @@ puts Store.average(:annual_revenue)
 
 # @profitable_stores = Store.where("annual_revenue > ?", 100000)
 
-puts Store.where("annual_revenue > ?", 1000000).count
+puts Store.where("annual_revenue > ?", 100000).count
